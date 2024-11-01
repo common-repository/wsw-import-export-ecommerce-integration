@@ -1,0 +1,137 @@
+/**
+ * For Multistore
+ */
+ .fp-popbox-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.fp-popbox-background{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(94, 110, 141, 0.9);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    overflow-y: auto;
+    z-index: 10000;
+}
+.fp-popbox-background:before{
+    content: "";
+    background-color: #fff;
+    opacity: 0.25;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.fp-popbox-background.is-visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+.momo-fp-popbox-container{
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 570px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    position: relative;
+    padding: 40px;
+    color: #cecece;
+}
+.momo-fp-popbox-container .form-holder.blur{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+#momo-be-form input[type="text"].red{
+    border-color: #a94442;
+}
+.momo-fp-close-pb{
+    cursor: pointer;
+    background: none;
+    color: #0e0e0e;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: solid 1px #0e0e0e;
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+ul.multistore-server-list{
+
+}
+ul.multistore-server-list li{
+    display: block;
+    margin: 0 5px 5px 0;
+    background-color: #8e8e8e;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 40px 5px 10px;
+    /* cursor: pointer; */
+    position: relative;
+    overflow: hidden;
+}
+ul.multistore-server-list li i{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    font-style: normal;
+    background-color: #3d3d3d;
+    color: #7b7a7a;
+    cursor: pointer;
+}
+ul.multistore-server-list li i:hover{
+    color: #FFF;
+}
+ul.multistore-server-list li .shop_url{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFF;
+}
+ul.multistore-server-list li .access_token{
+    margin-left: 12px;
+}
+#enable_specific_product_import li.nothere,
+#enable_specific_product_import li.nothere button{
+    background-color: #a94442;
+    color: #FFF;
+}
+.info-dot {
+    height: 8px;
+    width: 8px;
+    background-color: #a94442;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}

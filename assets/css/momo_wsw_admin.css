@@ -1,0 +1,952 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+#momo-be-form{
+    font-family: 'Roboto', 'sans-serif';
+}
+#momo-be-form .bx{
+    font-size: 22px;
+}
+.momo-mb-10{
+    margin-bottom: 10px;
+}
+.momo-be-hide{
+    display: none;
+}
+.momo-be-block{
+    display: block!important;
+}
+/** Footer Section **/
+.momo-be-footer{
+    text-align: center;
+    padding: 3rem;
+    font-size: 14px;
+}
+.momo-be-footer-mb{
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+.momo-be-footer-links{
+    margin-bottom: 16px;
+}
+.momo-be-footer-links span.linkseparator{
+    margin: 0 6px;
+}
+a.momo-be-footer-social-link{
+    color: #a9adb0;
+    font-size: 20px;
+    text-decoration: none;
+}
+.momo-be-right{
+    text-align: right!important;
+}
+/** ends Footer Section **/
+a.momowsw-upgrade-button{
+    background-color: #2e2e2e;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+}
+a.momowsw-upgrade-button:focus,
+a.momowsw-upgrade-button:hover{
+    text-decoration: none;
+}
+/** Getting Started Menu ***/
+li#toplevel_page_momowsw .wp-submenu a[href="admin.php?page=momowsw-getting-started"] {
+    border-top: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+  }
+  li#toplevel_page_momowsw .wp-submenu a[href="admin.php?page=momowsw-getting-started"] {
+    color: #FF6978 !important;
+  }
+
+/** Ends Getting Started Menu ***/
+/** Spinner **/
+@-webkit-keyframes momo-be-spin {
+    from {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(359deg);
+              transform: rotate(359deg);
+    }
+}
+@keyframes momo-be-spin {
+    from {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+                transform: rotate(359deg);
+        -webkit-transform: rotate(359deg);
+                transform: rotate(359deg);
+}
+}
+.momo-be-spinner {
+    opacity: 0;
+    color: #FFF;
+    display: none;
+    vertical-align: middle;
+    flex-shrink: 0;
+    height: 16px;
+    width: 16px;
+    margin: 0 12px 0 0;
+    border: 2px rgba(255, 255, 255, 0.10) solid;
+    border-top: 2px #FFF solid;
+    border-radius: 50%;
+    -webkit-animation: momo-be-spin 1s infinite linear;
+            animation: momo-be-spin 1s infinite linear;
+}
+.momo-be-spinner-text{
+    transition: all 3s;
+    transition: visibility 0s, opacity 0.5s linear;
+    font-family: "Helvetica Neue", sans-serif;
+}
+.momo-be-spinner.spin{
+    display: inline-block;
+    opacity: 1;
+}
+/** Buttons **/
+/** Backend **/
+.momo-be-new .momo-be-btn{
+    margin-left: 0;
+    border: none;
+    font: bold 14px 'Open Sans', arial;
+    line-height: normal;
+    text-transform: uppercase;
+    line-height: 150%;
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 4px 15px;
+    border-radius: 20px;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+.momo-be-new .momo-be-btn-primary{
+    background: #c40f06;
+    color: #FFF;
+}
+.momo-be-btn-secondary{
+    background: #0099CC;
+    color: #FFF;
+}
+.momo-be-btn-extra{
+    background: #3d3d3d;
+    color: #FFF;
+}
+.momo-be-btn:hover,
+.momo-be-btn:focus{
+    color: #FFF;
+    opacity: 0.7; 
+}
+/** Backend Working or Loading **/
+@keyframes leftright {
+    0% {
+      left: 0%;margin-left: -50px
+    }
+    100% {
+      left: 100%; margin-left: -50px
+    }
+}
+.momo-be-working{
+    background-color: transparent;
+    height: 5px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    display: block;
+    overflow: hidden;
+}
+.momo-be-working.show{
+    display:block;
+}
+.momo-be-working.show::before{
+    content: "";
+    width: 200px;
+    height: 100%;
+    display: block;
+    background-color: #FF6978;
+    position: absolute;
+    left: 0;
+    animation-name: leftright;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: none;
+    animation-delay: 0s;
+}
+/********************************************/
+/*********Form and Elements*****************/
+.momo-be-new#momo-be-form input[type="text"],
+.momo-be-new#momo-be-form input[type="number"],
+.momo-be-new#momo-be-form textarea,
+.momo-be-new#momo-be-form select{
+    width: 100%;
+    color: #666666;
+    padding: 5px 12px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: none;
+    background-color: #f3f3f3;
+    color: #32373c;
+    outline: 0;
+    transition: 50ms border-color ease-in-out;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 5px;
+}
+#momo-be-form textarea.full-width{
+    width: 100%;
+}
+#momo-be-form input[type="text"].block,
+#momo-be-form input[type="number"].block,
+#momo-be-form textarea.block,
+#momo-be-form select.block{
+    display: block;
+}
+#momo-be-form input[type="text"].inline,
+#momo-be-form input[type="number"].inline,
+#momo-be-form textarea.inline,
+#momo-be-form select.inline{
+    display: inline-block;
+    max-width: 250px;
+}
+#momo-be-form input[type="text"].momo-small,
+#momo-be-form input[type="number"].momo-small{
+    max-width: 80px;
+}
+#momo-be-form input[type="text"].inline.wide{
+    max-width: 350px;
+    display: inline-block;
+}
+#momo-be-form input:focus,
+#momo-be-form textarea:focus,
+#momo-be-form select:focus{
+    border-color:#5b9dd9;box-shadow:0 0 2px rgba(30,140,190,.8);outline:2px solid transparent
+}
+.momo-be-new#momo-be-form label.regular{
+    font-weight: 500;
+    color: #050b01;
+    margin-bottom: 1px;
+    display: inline-block;
+    font-size: 14px;
+}
+.momo-be-new .momo-eo-ei-block{
+    margin-bottom: 20px;
+}
+#momo-be-form label.inline{
+    display: inline-block;
+    color: #6F6F6F;
+    margin-right: 11px;
+    min-width: 200px; 
+}
+#momo-be-form label.block{
+    display: block;
+}
+#momo-be-form span.required{
+    margin-top: 11px;
+    display: block;
+    margin-left: 17px;
+}
+#momo-be-form span.required label{
+    color: #455570;
+    font-weight: bold;
+}
+.momo-input-group{
+    position: relative;
+    display: inline-flex;
+    margin-right: 8px;
+}
+.momo-be-new#momo-be-form .momo-input-group input[type="number"]{
+    border-radius: 0.25rem;
+    margin-right: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border: 1px solid #ced4da;
+}
+.momo-input-group-append{
+    display: flex;
+    margin-top: 5px;
+}
+.momo-input-group-text{
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 5px 8px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.momo-input-group-append .momo-input-group-text{
+    border-left: none;
+} 
+.momo-input-group-append .momo-input-group-text{
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+/********************************************/
+/******* Admin Container / Tabs Settings ****/
+/********************************************/
+.momo-be-new .momo-be-wrapper{
+    margin-top: 40px;
+}
+.momo-be-wrapper{
+    margin-right: 15px;
+}
+.momo-be-wrapper .nav-tab,
+.momo-be-wrapper .nav-tab-active{
+    border-bottom: 1px solid #d9d7d7;
+}
+.momo-be-new .momo-be-header-right{
+    text-align: right;
+    margin-bottom: 6px;
+    margin-right: 20px;
+}
+.momo-be-upper-right-menu {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.momo-be-upper-right-menu i {
+    margin-left: 5px;
+    font-size: 15px!important;
+}
+.momo-be-new .momo-be-header-right a{
+    color: #000;
+    font-size: 12px;
+    margin-right: 8px;
+}
+.momo-be-tab-table,
+.momo-be-tab-table td{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border-spacing: 0;
+}
+.momo-be-new .momo-be-tab-table ul.momo-be-main-tab{
+
+    background-color: #f1f1f1;
+    width: 175px;
+    height: auto;
+    border-right: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 45px;
+    margin-right: 45px;
+}
+.momo-be-new .momo-be-tab-table ul.momo-be-main-tab li{
+    margin: 0;
+    display: block;
+    border-left: none;
+    border-bottom: 1px solid #d9d7d7;
+}
+.momo-be-new .momo-be-main-tab a{
+    background-color: inherit;
+    /* background-color: transparent; */
+    /* color: #a8a8a8; */
+    color: #050b01;
+    padding: 15px 10px;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+}
+.momo-be-new .momo-be-main-tab a.active{
+    border-left: none;
+    color: #c40f06;
+}
+.momo-be-new .momo-be-main-tab a.active i{
+    color: #050b01;
+}
+.momo-be-new .momo-be-main-tab a span{
+    font-weight: 500;
+}
+.momo-be-main-tab a i{
+    padding-right: 16px;
+}
+.momo-be-new .momo-be-tab-table td.momo-be-main-tabcontent{
+    border: none;
+    color: #050b01;
+    border-radius: 18px;
+    background: #FFF;
+    border-top: none;
+    padding: 45px;
+    padding-left: 3.5rem;
+   transition: height 2s ease;
+   box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.momo-be-tab-table td .momo-be-admin-content{
+    display: none;
+}
+.momo-be-tab-table td.momo-be-main-tabcontent .active{
+    display: block;
+}
+.momo-be-new .momo-be-table-header{
+    display: none;
+}
+.momo-be-new .momo-be-table-header h3{
+    border-bottom: 1px solid #EDEDED;
+    margin: 0;
+    margin-right: 0px;
+    margin-right: 0px;
+    color: #333;
+    font-size: 26px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+/*** Yes No Scwitch ***/
+/**** Toggle Switch ***/
+.momo-be-toggle-container{
+    width: 125px;
+    text-align: center;
+}
+.momo-be-toggle-container-label{
+        padding-left: 10px;
+        line-height: 1.8;
+}
+.momo-be-toggle-container .switch{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 40px;
+    height: 20px;
+    padding: 3px;
+    background-color: #f7f7f7;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.momo-be-toggle-container .switch-input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.momo-be-toggle-container .switch-label{
+    position: relative;
+    display: block;
+    height: inherit;
+    font-size: 10px;
+    text-transform: uppercase;
+    background: #d4d6d7;
+    border-radius: inherit;
+    -webkit-transition: 0.15s ease-out;
+    -moz-transition: 0.15s ease-out;
+    -o-transition: 0.15s ease-out;
+    transition: 0.15s ease-out;
+    -webkit-transition-property: opacity background;
+    -moz-transition-property: opacity background;
+    -o-transition-property: opacity background;
+    transition-property: opacity background;
+}
+.momo-be-toggle-container .switch-label:before, 
+.momo-be-toggle-container .switch-label:after {
+    position: absolute;
+    top: 50%;
+    margin-top: -.5em;
+    line-height: 1;
+    -webkit-transition: inherit;
+    -moz-transition: inherit;
+    -o-transition: inherit;
+    transition: inherit;
+}
+.momo-be-toggle-container .switch-label:before {
+    content: attr(data-off);
+    right: 11px;
+    color: #352D39;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+    opacity: 0;
+}
+
+.momo-be-toggle-container .switch-label:after {
+    content: attr(data-on);
+    left: 11px;
+    color: #FFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+}
+
+.momo-be-new .momo-be-toggle-container .switch-input:checked ~ .switch-label {
+    background: #c40f06;
+}
+
+.momo-be-toggle-container .switch-input:checked ~ .switch-label:before {
+    opacity: 0;
+}
+
+.momo-be-toggle-container .switch-input:checked ~ .switch-label:after {
+    opacity: 0;
+}
+.momo-be-toggle-container .switch-handle {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border-radius: 10px;
+    -webkit-transition: left 0.15s ease-out;
+    -moz-transition: left 0.15s ease-out;
+    -o-transition: left 0.15s ease-out;
+    transition: left 0.15s ease-out;
+}
+
+.momo-be-toggle-container .switch-handle:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -6px 0 0 -6px;
+    width: 12px;
+    height: 12px;
+    background: #f9f9f9;
+    border-radius: 6px;
+}
+.momo-be-toggle-container .switch-input:checked ~ .switch-handle {
+    left: 23px;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.momo-be-new .momo-be-tc-yes-container{
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 15px;
+    background: transparent;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: -15px;
+    margin-left: -3.5rem;
+    display: none;
+}
+.momo-be-tc-yes-container .momo-be-block{
+    margin-left: 15px;
+}
+.momo-be-tc-yes-container.active{
+    display: block;
+}
+.momo-be-tc-yes-container .textarea_info{
+    padding: 12px;
+    font-style: italic;
+}
+/*** Ends Toggle Switch ***/
+/**************************/
+/**** Inside Admin Container ****/
+.momo-be-new .momo-be-section-block{
+    background: none;
+    border-top: none;
+    border-bottom: none;
+}
+.momo-be-section-block-normal{
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+.momo-be-hr-line{
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    display: block;
+}
+.momo-be-hr-line-full{
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    display: block;
+}
+.momo-be-hr-line-blank{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    display: block;
+    border-bottom:1px solid #f7dbdb;
+    clear: both;
+}
+.momo-be-new span.momo-be-note{
+    margin:12px 0;
+    font: 13px 'open sans';
+    font-style: italic;
+    display: block;
+    padding: 5px 15px;
+}
+span.momo-be-note.momo-note-block{
+    background-color: #f4f4f4;
+    color: #3f3e3e;
+    padding: 15px;
+    border-radius: 16px;
+}
+span.momo-be-note.inline{
+    display: inline-block;
+    padding-left: 0;
+}
+span.momo-be-note.tut-note{
+    font-weight: 800;
+}
+span.momo-be-note.tut-note i.tlink{
+    color: #145da5;
+}
+span.momo-be-note.tut-note i.vlink{
+    color: #ad103f;
+}
+.momo-be-section{
+    margin: 12px 0;
+}
+.momo-be-section-toggle{
+    margin: 18px 0;
+}
+.momo-be-section-header{
+    background:#f1f1f1;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.momo-be-new .momo-be-option-block,
+.momo-be-new .momo-be-buttons-block{
+    border-top: none;
+    border-bottom: none;
+    padding: 15px;
+    background: transparent;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: -15px;
+    margin-left: -3.5rem;
+    overflow: hidden;
+    display: none;
+    padding-left: 3.5rem;
+}
+.momo-be-new  .momo-be-buttons-block{
+    display: block;
+}
+.momo-be-new  .momo-be-buttons-block.import-section{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+@-webkit-keyframes BlockFadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes BlockFadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+.momo-be-option-block.show{
+    display: block;
+    -webkit-animation: BlockFadeIn 1s;
+    animation: BlockFadeIn 1s;
+}
+.momo-be-option-block input{
+    width: 300px;
+    color:
+    #666666;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+.momo-be-msg-block{
+    background-color:#ffeec8;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.momo-be-msg-block{
+    display: none;
+}
+/** Metabox **/
+.momo-be-mb-side{}
+/** Basic CSS */
+.momo-be-float-right{
+    float: right;
+}
+/** Result Block and Table **/
+.momo-be-result-block{
+    display: none;
+}
+.momo-be-imports-table table{
+    margin-top: 28px;
+    margin-bottom: 18px;
+    width: 100%;
+    box-shadow: none;
+    background:#fff;
+    border: 1px solid #e5e5e5;
+    border-spacing: 0;
+    width: 100%;
+    clear: both;
+    display: table;
+}
+.momo-be-imports-table table tr.bad td{
+    background-color: #e39f9f;
+    color: #FFF;
+}
+.momo-be-imports-table table tr.good td{
+    background-color: #9fe3b3;
+    color: #FFF;
+}
+.momo-be-imports-table table th{
+    color:#32373c;
+    line-height: 1.4em;
+    border-bottom: 1px solid #e1e1e1;
+    font-weight: 400;
+    text-align: center;
+    padding: 8px 10px;
+    font-size: 14px;
+    background-color: #83556a;
+    color: #FFF;
+}
+.momo-be-imports-table table tr td{
+    background: #f9f9f9;
+    padding: 8px 10px!important;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+.momo-be-imports-table table tr[data-status="imported"] td span{
+    background-color: #FF6978;
+    color: #FFF;
+    padding: 1px 12px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+.momo-be-block.inline-block{
+    display: inline-block;
+}
+/** More fetch Box**/
+.momo-be-fetch-more-box{
+    padding-top: 12px; 
+}
+.momo-be-back-to-list-block{
+    display: none;
+    float: right;
+}
+.momo-be-back-to-list-block i.fa{
+    font-size: 18px;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 900px){
+    .momo-be-tab-table ul.momo-be-main-tab{
+        width: auto;
+    }
+    .momo-be-main-tab li a span{
+        display: none;
+    }
+    .momo-be-main-tab li a{
+        min-width: 20px;
+        text-align: center;
+    }
+    .momo-be-main-tab li a i{
+        padding-right: 0;
+    }
+}
+
+/** Post Edit Page **/
+.momo-be-post-submitbox{
+    padding: 20px 0;
+    padding-top: 8px;
+}
+.momo-post-button{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 3;
+    min-height: 30px;
+    margin: 0;
+    letter-spacing: normal;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    display: inline-block;
+    color: #FFF;
+    background-color: #5E8E3E;
+    border: 1px solid #5E8E3E;
+    transition: all 3s ease-in-out;
+}
+.momo-be-post-submitbox .momo-post-button.full{
+    width: 100%;
+    text-align: center;
+}
+.momo-be-post-sb-message{
+    padding: 12px;
+    background-color: #e5e5f0;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border-left: 4px solid #e5e5f0;
+    display: none;
+}
+.momo-be-post-sb-message.show{
+    display: block;
+}
+.momo-be-post-sb-message.success{
+    border-left-color: #0099CC;
+}
+.momo-be-post-sb-message.warning{
+    border-left-color: #afa40d;
+}
+.momo-be-post-sb-message.errror{
+    border-left-color: #af180d;
+}
+.momo-post-btn-clear-shopify{
+    color: #0099CC;
+    text-decoration: underline;
+    text-align: right;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+@-webkit-keyframes BlockFadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes BlockFadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+.momo-be-option-block.show{
+    display: block;
+    -webkit-animation: BlockFadeIn 1s;
+    animation: BlockFadeIn 1s;
+}
+.momo-be-option-block input{
+    width: 300px;
+    color:
+    #666666;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+.momo-be-new .momo-be-note-block{
+    background-color: #f2f2f2;
+    background-color: transparent;
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners for a nicer look */
+    font-size: 0.9em; /* Small font size */
+    font-style: italic; /* Italic text */
+}
+.momo-be-msg-block{
+    background-color:#f7f9e8;
+    border-left: 4px solid #afa40d;
+    color: #201d16;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.momo-be-new .momo-be-msg-block{
+    margin-bottom: 8px;
+}
+.momo-be-msg-block{
+    display: none;
+}
+.momo-be-msg-block.show{
+    display: block;
+}
+.momo-be-msg-block.info{
+    background: #cce5ff;
+    border-left-color: #004085;
+    color: #004085;
+}
+.momo-be-msg-block.warning{
+    background: #f2dede;
+    color: #a94442;
+    border-left-color:#a94442;
+}
+
+/** For pagination **/
+.momowsw-pagination {
+    padding: 16px;
+    display: inline-flex;
+}
+.momowsw-pagination span.momowsw-pagination-link,
+.momowsw-pagination span.momowsw-pagination-link-product{
+    margin-right: 12px;
+    cursor: pointer;
+    background-color: #f23b26;
+    color: #FFF;
+    padding: 8px 14px;
+    display: flex;
+    border-radius: 8px;
+}
+.momowsw-pagination span.momowsw-pagination-link i
+.momowsw-pagination span.momowsw-pagination-link-product i{
+    font-weight: 600;
+}
+/** Added Listing Table **/
+table.momo-be-listing-table{
+    width: 100%;
+}
+table.momo-be-listing-table tr {
+    padding-bottom: 10px;
+}
+
+table.momo-be-listing-table td {
+    padding: 10px 10px 0;
+    text-align: left;
+}
+.momo-be-listing-footer{
+    padding: 18px;
+}
+/** Pro Tip **/
+.momo-pro-tip{
+    background-color: #b3edbd;
+    padding: 3px 12px;
+    color: #000;
+    font-size: 14px;
+    border-radius: 12px;
+    margin-left: 8px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+/*** Webhooks ***/
+.momowsw-webhooks-delete,
+.momowsw-wsw-webhooks-delete,
+.momowsw-wsw-webhooks-enable,
+.momowsw-webhooks-enable{
+    margin-left: 12px!important;
+    display: flex!important;
+    vertical-align: middle;
+    font-size: 14px!important;
+    line-height: 1.4!important;
+    padding: 4px 8px!important;
+}
+.momowsw-webhooks-delete i,
+.momowsw-wsw-webhooks-delete i,
+.momowsw-wsw-webhooks-enable i,
+.momowsw-webhooks-enable i{
+    margin-right: 8px;
+}

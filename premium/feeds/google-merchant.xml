@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+  <channel>
+    <title>WooCommerce Shopify</title>
+    <link>http://localhost/momo/shopify</link>
+    <description>Just another WordPress site</description>
+    <item>
+      <g:id>v-neck-t-shirt-2-attributes</g:id>
+      <g:sku>7058972770444-v-neck-t-shirt-2-attributes</g:sku>
+      <g:title>V-Neck T-Shirt ( 2 Attributes )</g:title>
+      <g:description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</g:description>
+      <g:link>http://localhost/momo/shopify/product/v-neck-t-shirt-2-attributes/</g:link>
+      <title>V-Neck T-Shirt ( 2 Attributes )</title>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</description>
+      <link>http://localhost/momo/shopify/product/v-neck-t-shirt-2-attributes/</link>
+      <g:image_link>http://localhost/momo/shopify/wp-content/uploads/2022/07/781_shopify_image_ba94b6622c09f01c94d27b78b51bd984.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>22.00 USD</g:price>
+      <g:google_product_category>&lt;a href="http://localhost/momo/shopify/product-category/clothing/tshirts/" rel="tag"&gt;Tshirts&lt;/a&gt;</g:google_product_category>
+      <g:brand/>
+      <g:gtin/>
+      <g:mpn/>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:condition>NEW</g:condition>
+    </item>
+    <item>
+      <g:id>logo-collection</g:id>
+      <g:sku>logo-collection</g:sku>
+      <g:title>Logo Collection</g:title>
+      <g:description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</g:description>
+      <g:link>http://localhost/momo/shopify/product/logo-collection/</g:link>
+      <title>Logo Collection</title>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</description>
+      <link>http://localhost/momo/shopify/product/logo-collection/</link>
+      <g:image_link>http://localhost/momo/shopify/wp-content/uploads/2022/07/logo-1.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>18 USD</g:price>
+      <g:google_product_category>&lt;a href="http://localhost/momo/shopify/product-category/clothing/" rel="tag"&gt;Clothing&lt;/a&gt;</g:google_product_category>
+      <g:brand/>
+      <g:gtin/>
+      <g:mpn/>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:condition>NEW</g:condition>
+      <g:sale_price> USD</g:sale_price>
+      <g:sale_price_effective_date> </g:sale_price_effective_date>
+    </item>
+    <item>
+      <g:id>polo</g:id>
+      <g:sku>woo-polo</g:sku>
+      <g:title>Polo</g:title>
+      <g:description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</g:description>
+      <g:link>http://localhost/momo/shopify/product/polo/</g:link>
+      <title>Polo</title>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</description>
+      <link>http://localhost/momo/shopify/product/polo/</link>
+      <g:image_link>http://localhost/momo/shopify/wp-content/uploads/2022/07/polo-2.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>20 USD</g:price>
+      <g:google_product_category>&lt;a href="http://localhost/momo/shopify/product-category/clothing/tshirts/" rel="tag"&gt;Tshirts&lt;/a&gt;</g:google_product_category>
+      <g:brand/>
+      <g:gtin/>
+      <g:mpn/>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:condition>NEW</g:condition>
+    </item>
+    <item>
+      <g:id>sunglasses</g:id>
+      <g:sku>woo-sunglasses</g:sku>
+      <g:title>Sunglasses</g:title>
+      <g:description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</g:description>
+      <g:link>http://localhost/momo/shopify/product/sunglasses/</g:link>
+      <title>Sunglasses</title>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</description>
+      <link>http://localhost/momo/shopify/product/sunglasses/</link>
+      <g:image_link>http://localhost/momo/shopify/wp-content/uploads/2022/07/sunglasses-2.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>90 USD</g:price>
+      <g:google_product_category>&lt;a href="http://localhost/momo/shopify/product-category/clothing/accessories/" rel="tag"&gt;Accessories&lt;/a&gt;</g:google_product_category>
+      <g:brand/>
+      <g:gtin/>
+      <g:mpn/>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:condition>NEW</g:condition>
+    </item>
+    <item>
+      <g:id>cap</g:id>
+      <g:sku>woo-cap</g:sku>
+      <g:title>Cap</g:title>
+      <g:description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</g:description>
+      <g:link>http://localhost/momo/shopify/product/cap/</g:link>
+      <title>Cap</title>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</description>
+      <link>http://localhost/momo/shopify/product/cap/</link>
+      <g:image_link>http://localhost/momo/shopify/wp-content/uploads/2022/07/cap-2.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>16 USD</g:price>
+      <g:google_product_category>&lt;a href="http://localhost/momo/shopify/product-category/clothing/accessories/" rel="tag"&gt;Accessories&lt;/a&gt;</g:google_product_category>
+      <g:brand/>
+      <g:gtin/>
+      <g:mpn/>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:condition>NEW</g:condition>
+      <g:sale_price>16 USD</g:sale_price>
+      <g:sale_price_effective_date> </g:sale_price_effective_date>
+    </item>
+    <item>
+      <g:id>belt</g:id>
+      <g:sku>woo-belt</g:sku>
+      <g:title>Belt</g:title>
+      <g:description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</g:description>
+      <g:link>http://localhost/momo/shopify/product/belt/</g:link>
+      <title>Belt</title>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</description>
+      <link>http://localhost/momo/shopify/product/belt/</link>
+      <g:image_link>http://localhost/momo/shopify/wp-content/uploads/2022/07/belt-2.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>55 USD</g:price>
+      <g:google_product_category>&lt;a href="http://localhost/momo/shopify/product-category/clothing/accessories/" rel="tag"&gt;Accessories&lt;/a&gt;</g:google_product_category>
+      <g:brand/>
+      <g:gtin/>
+      <g:mpn/>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:condition>NEW</g:condition>
+      <g:sale_price>55 USD</g:sale_price>
+      <g:sale_price_effective_date> </g:sale_price_effective_date>
+    </item>
+    <item>
+      <g:id>beanie</g:id>
+      <g:sku>woo-beanie</g:sku>
+      <g:title>Beanie</g:title>
+      <g:description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</g:description>
+      <g:link>http://localhost/momo/shopify/product/beanie/</g:link>
+      <title>Beanie</title>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</description>
+      <link>http://localhost/momo/shopify/product/beanie/</link>
+      <g:image_link>http://localhost/momo/shopify/wp-content/uploads/2022/07/beanie-2.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>18 USD</g:price>
+      <g:google_product_category>&lt;a href="http://localhost/momo/shopify/product-category/clothing/accessories/" rel="tag"&gt;Accessories&lt;/a&gt;</g:google_product_category>
+      <g:brand/>
+      <g:gtin/>
+      <g:mpn/>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:condition>NEW</g:condition>
+      <g:sale_price>18 USD</g:sale_price>
+      <g:sale_price_effective_date> </g:sale_price_effective_date>
+    </item>
+    <item>
+      <g:id>t-shirt</g:id>
+      <g:sku>woo-tshirt</g:sku>
+      <g:title>T-Shirt</g:title>
+      <g:description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</g:description>
+      <g:link>http://localhost/momo/shopify/product/t-shirt/</g:link>
+      <title>T-Shirt</title>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</description>
+      <link>http://localhost/momo/shopify/product/t-shirt/</link>
+      <g:image_link>http://localhost/momo/shopify/wp-content/uploads/2022/07/tshirt-2.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>18 USD</g:price>
+      <g:google_product_category>&lt;a href="http://localhost/momo/shopify/product-category/clothing/tshirts/" rel="tag"&gt;Tshirts&lt;/a&gt;</g:google_product_category>
+      <g:brand/>
+      <g:gtin/>
+      <g:mpn/>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:condition>NEW</g:condition>
+    </item>
+    <item>
+      <g:id>hoodie</g:id>
+      <g:sku>woo-hoodie</g:sku>
+      <g:title>Hoodie</g:title>
+      <g:description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</g:description>
+      <g:link>http://localhost/momo/shopify/product/hoodie/</g:link>
+      <title>Hoodie</title>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</description>
+      <link>http://localhost/momo/shopify/product/hoodie/</link>
+      <g:image_link>http://localhost/momo/shopify/wp-content/uploads/2022/07/hoodie-2.jpg</g:image_link>
+      <g:availability>out of stock</g:availability>
+      <g:price> USD</g:price>
+      <g:google_product_category>&lt;a href="http://localhost/momo/shopify/product-category/clothing/hoodies/" rel="tag"&gt;Hoodies&lt;/a&gt;</g:google_product_category>
+      <g:brand/>
+      <g:gtin/>
+      <g:mpn/>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:condition>NEW</g:condition>
+    </item>
+    <item>
+      <g:id>v-neck-t-shirt</g:id>
+      <g:sku/>
+      <g:title>V-Neck T-Shirt ( 2 Attributes )</g:title>
+      <g:description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</g:description>
+      <g:link>http://localhost/momo/shopify/product/v-neck-t-shirt/</g:link>
+      <title>V-Neck T-Shirt ( 2 Attributes )</title>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</description>
+      <link>http://localhost/momo/shopify/product/v-neck-t-shirt/</link>
+      <g:image_link>http://localhost/momo/shopify/wp-content/uploads/2022/07/vneck-tee-2.jpg</g:image_link>
+      <g:availability>in stock</g:availability>
+      <g:price>22 USD</g:price>
+      <g:google_product_category>&lt;a href="http://localhost/momo/shopify/product-category/clothing/tshirts/" rel="tag"&gt;Tshirts&lt;/a&gt;</g:google_product_category>
+      <g:brand/>
+      <g:gtin/>
+      <g:mpn/>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:condition>NEW</g:condition>
+    </item>
+    <item>
+      <g:id>example-t-shirt</g:id>
+      <g:sku/>
+      <g:title>Variation with image and Gallery</g:title>
+      <g:description/>
+      <g:link>http://localhost/momo/shopify/product/example-t-shirt/</g:link>
+      <title>Variation with image and Gallery</title>
+      <description/>
+      <link>http://localhost/momo/shopify/product/example-t-shirt/</link>
+      <g:image_link>http://localhost/momo/shopify/wp-content/uploads/2022/06/672_shopify_image_green-t-shirt.jpg</g:image_link>
+      <g:availability>out of stock</g:availability>
+      <g:price>19.99 USD</g:price>
+      <g:google_product_category>&lt;a href="http://localhost/momo/shopify/product-category/shirts/" rel="tag"&gt;Shirts&lt;/a&gt;</g:google_product_category>
+      <g:brand/>
+      <g:gtin/>
+      <g:mpn/>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:condition>NEW</g:condition>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,259 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MoMo Themes - WSW\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-04 15:05+0000\n"
+"PO-Revision-Date: 2022-06-05 20:01+0545\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: momowsw\n"
+
+#: includes/admin/class-momo-wsw-admin-init.php:56
+msgid " product(s) imported."
+msgstr "インポートされた製品。"
+
+#: includes/admin/pages/page-momo-wsw-import.php:57
+msgid "100"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:58
+msgid "150"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:59
+msgid "200"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:60
+msgid "250"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:56
+msgid "50"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:28
+msgid "All Product(s)"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-settings.php:32
+msgid "API Key:"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-settings.php:36
+msgid "API Secret Key:"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-settings.php:50
+msgid "API Version:"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:84
+msgid "Back to product(s) list"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:107
+msgid "Created at"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:104
+msgid "Description"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:74
+msgid "Do not fetch imported product(s) ( Published, Pending or Draft )"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:158
+msgid "Draft"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:171
+msgid "Fetch More Product(s)"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:79
+msgid "Fetch Product(s)"
+msgstr ""
+
+#. %s: product count
+#: includes/admin/class-momo-wsw-admin-ajax.php:272
+#, php-format
+msgid "Fetched %s product successfully."
+msgstr ""
+
+#: includes/admin/class-momo-wsw-admin-ajax.php:113
+msgid "Fetched 1 product successfully."
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:41
+msgid "for e.g: "
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:40
+msgid "Go to shopify admin page and select product to edit "
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.momothemes.com/"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:128
+msgid "Import categories ans tags"
+msgstr ""
+
+#: includes/admin/class-momo-wsw-admin-ajax.php:180
+msgid "Import Error."
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:145
+msgid "Import Product Variation(s)"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:164
+msgid "Import Product(s)"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:23
+msgid "Import Product(s) by "
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:15
+msgid "Import Shopify Products"
+msgstr ""
+
+#. Description of the plugin
+msgid "Import Shopify Products to WooCommerce."
+msgstr ""
+
+#: includes/class-momo-wsw-functions.php:404
+#: includes/admin/class-momo-wsw-admin-init.php:57
+msgid "imported"
+msgstr ""
+
+#. Author of the plugin
+msgid "MoMo Themes"
+msgstr ""
+
+#. Name of the plugin
+#: includes/admin/pages/momo-wsw-settings.php:17
+msgid "MoMo Themes - WSW"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:52
+msgid "Number of product(s) "
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:157
+msgid "Pending"
+msgstr ""
+
+#: includes/admin/class-momo-wsw-admin-ajax.php:102
+msgid "Product already imported."
+msgstr ""
+
+#: includes/admin/class-momo-wsw-admin-ajax.php:112
+msgid "Product fetched successfully."
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:27
+#: includes/admin/pages/page-momo-wsw-import.php:34
+msgid "Product ID"
+msgstr ""
+
+#: includes/admin/class-momo-wsw-admin-init.php:55
+msgid "Product ID field is empty. Please enter shopify product id."
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:44
+msgid "Product ID is the end number of the URL."
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:98
+msgid "Product Name"
+msgstr ""
+
+#: includes/admin/class-momo-wsw-admin-ajax.php:125
+#: includes/admin/class-momo-wsw-admin-ajax.php:284
+msgid "Product not found"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:152
+msgid "Product status after import"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:132
+msgid ""
+"Product type form Shopify will be saved as categories and tags will be saved "
+"as woocommerce tags."
+msgstr ""
+
+#: includes/admin/class-momo-wsw-admin-ajax.php:270
+msgid "Product(s) fetched successfully."
+msgstr ""
+
+#: includes/admin/class-momo-wsw-admin-ajax.php:172
+msgid "Product(s) imported successfully."
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:156
+msgid "Published"
+msgstr ""
+
+#: includes/admin/pages/momo-wsw-settings.php:26
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-settings.php:28
+msgid "Shopify Access Token:"
+msgstr ""
+
+#: includes/admin/pages/momo-wsw-settings.php:27
+msgid "Shopify Import"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-settings.php:19
+msgid "Shopify Settings"
+msgstr ""
+
+#: includes/admin/class-momo-wsw-admin-ajax.php:41
+#: includes/admin/class-momo-wsw-admin-ajax.php:147
+#: includes/admin/class-momo-wsw-admin-ajax.php:203
+msgid "Shopify shop url is empty."
+msgstr ""
+
+#: includes/admin/class-momo-wsw-admin-init.php:28
+msgid "Shopify to WooCommerce"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-settings.php:24
+msgid "Shopify URL:"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:110
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-momo-wsw-admin-ajax.php:45
+#: includes/admin/class-momo-wsw-admin-ajax.php:151
+#: includes/admin/class-momo-wsw-admin-ajax.php:207
+msgid "Storefront access token is empty."
+msgstr ""
+
+#: class-momo-wsw-import-export.php:60
+msgid ""
+"This plugin needs WooCommerce plugin to store imported product(s). Please "
+"install woocommerce first"
+msgstr ""
+
+#: includes/admin/pages/page-momo-wsw-import.php:101
+msgid "Vendor"
+msgstr ""
